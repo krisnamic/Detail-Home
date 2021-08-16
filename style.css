@@ -54,20 +54,24 @@ body {
 
 .flex-container > div {
   width: 100%;
-  height: 130px;
   margin: 10px 0;
-  background-image: url("http://lorempixel.com/400/200/sports");
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: contain;
 }
 
-.box1 {
+.box {
   background-color: gray;
 }
 
-.box2 {
-  background-color: gray;
+.img-container {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
