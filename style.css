@@ -70,8 +70,11 @@ body {
   text-align: center;
 }
 
-img {
-  max-width: 100%;
+.img-container img {
+  width: 100%;
+  height: max-content;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media only screen and (min-width: 600px) {
