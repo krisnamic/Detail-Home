@@ -54,9 +54,12 @@ body {
 
 .flex-container > div {
   width: 100%;
-  height: 100px;
+  height: 130px;
   margin: 10px 0;
-  text-align: center;
+  background-image: url("http://lorempixel.com/400/200/sports");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 
 .box1 {
@@ -89,6 +92,7 @@ body {
   }
 
   .flex-container > div {
+    height: 140px;
     margin: 30px;
   }
 }
